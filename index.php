@@ -5,7 +5,7 @@
 
 <head>
     <?php head_tag(); ?>
-    <title>Imperial Wellness</title>
+    <title>Imperial Wellness | Home</title>
 </head>
 
 <body>

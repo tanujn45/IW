@@ -14,7 +14,10 @@ $message .= "\nEmail - " . $email;
 $message .= "\nphone - " . $phone;
 $message .= "\ncountry - " . $country;
 $message .= "\nHerbalife - " . $herbalife;
-mail($sender_email, $subject, $message);
-header('Location: submit.php');
+if(mail($sender_email, $subject, $message)) {
+    header('Location: submit');
+} else {
+    echo "message not sent!";
+}
 
 ?>

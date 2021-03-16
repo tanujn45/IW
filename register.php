@@ -5,7 +5,7 @@
 
 <head>
     <?php head_tag(); ?>
-    <title>Imperial Wellness</title>
+    <title>Imperial Wellness | Register</title>
 </head>
 
 <body>
@@ -43,17 +43,19 @@
                         completely transform your life and the people around you,<br />I am excited to help you Every
                         Step
                         of the Way.</p>
-                    <form action="email.php" method="post">
+                    <form action="email" method="post">
                         <div class="form-group">
                             <div class="form-row">
                                 <div class="col-md-6">
                                     <div class="mx-4 mb-4">
-                                        <input type="text" name="fname" placeholder="First Name" class="form-control">
+                                        <input type="text" name="fname" placeholder="First Name" class="form-control"
+                                            required>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="mx-4 mb-4">
-                                        <input type="text" name="lname" placeholder="Last Name" class="form-control">
+                                        <input type="text" name="lname" placeholder="Last Name" class="form-control"
+                                            required>
                                     </div>
                                 </div>
                             </div>
@@ -62,13 +64,14 @@
                             <div class="form-row">
                                 <div class="col-md-6">
                                     <div class="mx-4 mb-4">
-                                        <input type="email" name="email" placeholder="Email" class="form-control">
+                                        <input type="email" name="email" placeholder="Email" class="form-control"
+                                            required>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="mx-4 mb-4">
                                         <input type="text" name="phone" placeholder="Phone Number (+91 9876 543 210)"
-                                            class="form-control">
+                                            class="form-control" required>
                                     </div>
                                 </div>
                             </div>
@@ -77,12 +80,14 @@
                             <div class="form-row">
                                 <div class="col-md-6">
                                     <div class="mx-4 mb-4">
-                                        <input type="text" name="country" placeholder="Country" class="form-control">
+                                        <input type="text" name="country" placeholder="Country" class="form-control"
+                                            required>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="mx-4 mb-4">
-                                        <input type="text" name="state" placeholder="State" class="form-control">
+                                        <input type="text" name="state" placeholder="State" class="form-control"
+                                            required>
                                     </div>
                                 </div>
                             </div>

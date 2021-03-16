@@ -4,6 +4,7 @@
 <html lang="en">
 <head>
     <?php head_tag() ?>
+    <title>Imperial Wellness | Submit</title>
 </head>
 <body>
     <section id="submit">

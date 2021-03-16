@@ -3,6 +3,33 @@ function head_tag() {
     echo "<meta charset=\"UTF-8\">
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
 
+    <link rel=\"apple-touch-icon\" sizes=\"76x76\" href=\"favicon/apple-touch-icon.png\">
+    <link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"favicon/favicon-32x32.png\">
+    <link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"favicon/favicon-16x16.png\">
+    <link rel=\"manifest\" href=\"favicon/site.webmanifest\">
+    <link rel=\"mask-icon\" href=\"favicon/safari-pinned-tab.svg\" color=\"#5bbad5\">
+    <link rel=\"shortcut icon\" href=\"favicon/favicon.ico\">
+    <meta name=\"msapplication-TileColor\" content=\"#00a300\">
+    <meta name=\"msapplication-config\" content=\"favicon/browserconfig.xml\">
+    <meta name=\"theme-color\" content=\"#ffffff\">
+    <meta name=\"title\" content=\"Imperial Wellness | Nutrition. Fitness. Mentoring. Motivation\">
+    <meta name=\"description\"
+        content=\"Hey there I’m Additi. As a Dedicated Wellness Coach, I want to share with you a Course of Action, on how You can easily incorporate nutrition balancing and fitness into your busy lifestyle. You could be a work-o-holic, a busy mom or a student and in spite of all the busy ness you can still rep the fitness star version of yourself.\">
+
+    <meta property=\"og:type\" content=\"website\">
+    <meta property=\"og:url\" content=\"https://www.imperialwellness24.com/\">
+    <meta property=\"og:title\" content=\"Imperial Wellness | Nutrition. Fitness. Mentoring. Motivation\">
+    <meta property=\"og:description\"
+        content=\"Hey there I’m Additi. As a Dedicated Wellness Coach, I want to share with you a Course of Action, on how You can easily incorporate nutrition balancing and fitness into your busy lifestyle. You could be a work-o-holic, a busy mom or a student and in spite of all the busy ness you can still rep the fitness star version of yourself.\">
+    <meta property=\"og:image\" content=\"\">
+
+    <meta property=\"twitter:card\" content=\"summary_large_image\">
+    <meta property=\"twitter:url\" content=\"https://www.imperialwellness24.com/\">
+    <meta property=\"twitter:title\" content=\"Imperial Wellness | Nutrition. Fitness. Mentoring. Motivation\">
+    <meta property=\"twitter:description\"
+        content=\"Hey there I’m Additi. As a Dedicated Wellness Coach, I want to share with you a Course of Action, on how You can easily incorporate nutrition balancing and fitness into your busy lifestyle. You could be a work-o-holic, a busy mom or a student and in spite of all the busy ness you can still rep the fitness star version of yourself.\">
+    <meta property=\"twitter:image\" content=\"\">
+
     <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css\">
     <link rel=\"stylesheet\" href=\"https://unpkg.com/aos@next/dist/aos.css\" />
     <link rel=\"stylesheet\" type=\"text/css\" href=\"//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css\" />
@@ -30,16 +57,16 @@ function navbar($color, $toggler) {
             <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">
                 <ul class=\"navbar-nav ml-auto\">
                     <li class=\"nav-item ml-5\">
-                        <a class=\"nav-link\" href=\"index.php\">Home</a>
+                        <a class=\"nav-link\" href=\"index\">Home</a>
                     </li>
                     <li class=\"nav-item ml-5\">
-                        <a class=\"nav-link\" href=\"about.php\">About Us</a>
+                        <a class=\"nav-link\" href=\"about\">About Us</a>
                     </li>
                     <li class=\"nav-item ml-5\">
-                        <a class=\"nav-link\" href=\"plans.php\">Plans</a>
+                        <a class=\"nav-link\" href=\"plans\">Plans</a>
                     </li>
                     <li class=\"nav-item ml-5\">
-                        <a class=\"nav-link\" href=\"register.php\">Register</a>
+                        <a class=\"nav-link\" href=\"register\">Register</a>
                     </li>
                     <li class=\"nav-item ml-5\">
                         <a class=\"nav-link\" href=\"https://imperialwellness.goherbalife.com/Catalog/Home/Index/en-in\">Shop</a>
