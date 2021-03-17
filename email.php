@@ -8,7 +8,7 @@ $state = $_POST['state'];
 $herbalife = $_POST['herbalife'];
 $subject = "Imperial Wellness enquiry";
 
-$sender_email = "tanujn45@gmail.com";
+$sender_email = "info@imperialwellness.com";
 $message = "Name - " . $fname . " " . $lname;
 $message .= "\nEmail - " . $email;
 $message .= "\nphone - " . $phone;

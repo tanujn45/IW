@@ -4,6 +4,15 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DV69LVSG31"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-DV69LVSG31');
+    </script>
     <?php head_tag(); ?>
     <title>Imperial Wellness | About</title>
 </head>
@@ -24,11 +33,11 @@
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-4 mt-5">
-                    <img data-aos="fade-up" src="./images/about.jpg" alt="" class="img-fluid">
+                    <img data-aos="fade-up" src="./images/about.jpeg" alt="" class="img-fluid">
                 </div>
                 <div class="col-md-8 mt-5">
                     <h2 data-aos="fade-up">Additi Jain</h2>
-                    <h3 class="pri" data-aos="fade-up" data-aos-delay="200">Nutrition. Fitness. Mentoring. Motivation
+                    <h3 class="pri" data-aos="fade-up" data-aos-delay="200">Nutrition | Fitness | Mentoring | Motivation
                     </h3>
                     <p data-aos="fade-up" data-aos-delay="400">Hey there I’m Additi.
                         As a Dedicated <span class="pri-bold">Wellness Coach</span>, I want to share with you a <span
@@ -45,7 +54,7 @@
                 <div class="col-lg-7 mt-5">
                     <p data-aos="fade-up" data-aos-delay="400">And I just <span class="pri-bold">don’t talk the talk. I
                             walk the talk.</span>
-                        When I was a Student in my final year of college I was struggling with Health worries... I would
+                        When I was a Student in my final year of college I was struggling with Health issues... I would
                         gorge on food because it seemed like the only thing revolving in my subconscious. Ahh and wait
                         ...coffee... 15cups of coffee was like drinking 15cups of water for me. I didn’t exercise and
                         didn’t have a health philosophy. Until, one day, I was introduced to a <span
@@ -57,24 +66,25 @@
                         more about Nutrition
                         and Fitness. And I’m
                         here to be your
-                        <span class="pri-bold">Wellness Pal</span> and inspire you to be your best version.
+                        <span class="pri-bold">Wellness Pal</span> and inspire you to <span class="pri-bold">Be your
+                            best version.</span>
                     </p>
                 </div>
                 <div class="col-lg-5 mt-5">
-                    <img data-aos="fade-up" data-aos-delay="400" src="./images/beforeafter.jpg" alt=""
+                    <img data-aos="fade-up" data-aos-delay="400" src="./images/beforeafter.jpeg" alt=""
                         class="img-fluid">
                 </div>
             </div>
 
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-4 mt-5">
-                    <img data-aos="fade-up" data-aos-delay="400" src="./images/1.jpg" class="img-fluid" alt="">
+                    <img data-aos="fade-up" data-aos-delay="400" src="./images/1.jpeg" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-4 mt-5">
-                    <img data-aos="fade-up" data-aos-delay="400" src="./images/2.jpg" class="img-fluid" alt="">
+                    <img data-aos="fade-up" data-aos-delay="400" src="./images/2.jpeg" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-4 mt-5">
-                    <img data-aos="fade-up" data-aos-delay="400" src="./images/3.jpg" class="img-fluid" alt="">
+                    <img data-aos="fade-up" data-aos-delay="400" src="./images/3.jpeg" class="img-fluid" alt="">
                 </div>
             </div>
         </div>

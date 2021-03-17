@@ -4,6 +4,15 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DV69LVSG31"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-DV69LVSG31');
+    </script>
     <?php head_tag(); ?>
     <title>Imperial Wellness | Register</title>
 </head>
@@ -40,7 +49,7 @@
                         ACTION.
                         I’m excited you’re giving me the opportunity to be your Results Coach. If you are looking just
                         for more energy, or to
-                        completely transform your life and the people around you,<br />I am excited to help you Every
+                        completely transform your life and of the people around you,<br />I am excited to help you Every
                         Step
                         of the Way.</p>
                     <form action="email" method="post">

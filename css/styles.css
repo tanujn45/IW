@@ -63,12 +63,23 @@ p {
 }
 
 .pri {
-  color: #a4dbdd;
+  color: #4ebcce;
 }
 
 .pri-bold {
-  color: #42b0f8;
+  color: #4ebcce;
   font-weight: 700;
+}
+
+.pri-bold-index {
+  color: #4ebcce;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1024px) {
+  .pri-bold-index {
+    color: var(--black) !important;
+  }
 }
 
 ul {
@@ -130,6 +141,19 @@ label:focus,
 .iw-btn:hover {
   text-decoration: none;
   color: black;
+}
+
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-dot {
+  width: 30px;
+  height: 30px;
+}
+.owl-carousel .owl-nav .owl-prev {
+  background: url("../images/designs/arrowleft.svg") no-repeat !important;
+}
+.owl-carousel .owl-nav .owl-next {
+  background: url("../images/designs/arrowright.svg") no-repeat !important;
 }
 
 /* NAVBAR */
@@ -449,6 +473,10 @@ ABOUT PAGE
   color: var(--white);
   text-transform: capitalize;
   font-weight: 400;
+}
+
+#about h3 {
+  font-size: 1.4rem;
 }
 
 #about {

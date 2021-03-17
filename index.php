@@ -4,6 +4,15 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DV69LVSG31"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-DV69LVSG31');
+    </script>
     <?php head_tag(); ?>
     <title>Imperial Wellness | Home</title>
 </head>
@@ -26,7 +35,7 @@
                         want you to feel Body
                         Confident and Proud.</p>
                     <div class="btn-box">
-                        <a data-aos="fade-up" data-aos-delay="500" href="/" class="iw-btn">Get in touch</a>
+                        <a data-aos="fade-up" data-aos-delay="500" href="register" class="iw-btn">Get in touch</a>
                         <a class="btn-box trigger-button popup-youtube"
                             href="https://www.youtube.com/watch?v=1a3pCFzvBQ4">
                             <img data-aos="fade-up" data-aos-delay="600" src="./images/designs/play.svg" alt="">
@@ -55,14 +64,14 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="about-home-box">
-                        <h3 data-aos="fade-up" data-aos-delay="400">About <span class="pri-bold">Imperial
+                        <h3 data-aos="fade-up" data-aos-delay="400">About <span class="pri-bold-index">Imperial
                                 Wellness</span>
                         </h3>
                         <p data-aos="fade-up" data-aos-delay="400">In this Fast Pacing Era where "busyness" achieves a
-                            New Benchmark everyday, <span class="pri-bold">Why should health
+                            New Benchmark everyday, <span class="pri-bold-index">Why should health
                                 take a step back?</span></p>
                         <p data-aos="fade-up" data-aos-delay="400">At Imperial Wellness, I am looking out for all you
-                            <span class="pri-bold">
+                            <span class="pri-bold-index">
                                 Busy
                                 people who are seriously looking for a
                                 Body
@@ -72,17 +81,18 @@
                             Strict Dieting, No Calorie Counting /
                             Not having to spend many hours in the gym.
                         </p>
-                        <p data-aos="fade-up" data-aos-delay="400">We're <span class="pri-bold">Passionate</span> about
+                        <p data-aos="fade-up" data-aos-delay="400">We're <span class="pri-bold-index">Passionate</span>
+                            about
                             results without deviating much
                             from Routine lifestyles. Our programmes
                             can
-                            <span class="pri-bold">easily</span> be followed by anyone anywhere.
+                            <span class="pri-bold-index">easily</span> be followed by anyone anywhere.
                         </p>
                         <p data-aos="fade-up" data-aos-delay="400">At Imperial Wellness, we're Offering Nutrition as A
                             Primary way to Achieve Fitness. So let's
                             get
                             you Started on your first step towards achieving your Fitness goal.</p>
-                        <button data-aos="fade-up" data-aos-delay="400" class="iw-btn">Learn More</button>
+                        <a href="about" data-aos="fade-up" data-aos-delay="400" class="iw-btn">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -147,7 +157,7 @@
                 and help you not feel hungry. Water throughout entire day 2L at least will keep you hydrated helping you
                 get AMAZING
                 results!</p>
-            <div class="steps-carousel owl-carousel">
+            <div class="steps-carousel owl-carousel owl-theme">
                 <div class="mx-4" data-aos="fade-up">
                     <img src="./images/steps/1.jpg" alt="" class="img-fluid mt-3">
                     <h4 class="mt-3 mb-2">1. Breakfast shake</h4>
@@ -195,15 +205,15 @@
                 amongst other things, a balance diet, regular exercise, an adequate daily fluid intake, nutritional
                 supplementation
                 where required and appropriate rest, individual results will vary.</p>
-            <div class="testimonial-carousel owl-carousel">
+            <div class="testimonial-carousel owl-carousel owl-theme">
                 <div class="testimonial-box mx-3">
                     <div class="row justify-content-center align-items-center">
                         <div class="col-lg-7 mt-3 mb-3">
-                            <p>"I was sick and tired of being overweight and tired. I just was so exhausted and I was
-                                desperately looking for results.
-                                I didn't want 6 packs or anything. Just wanted to get rid of 6 kg and feel healthier. At
-                                Imperial Wellness, I got more
-                                than what I wanted!"</p>
+                            <p>"I was sick and tired of being overweight and lethargic. I just was so exhausted and I
+                                was desperately looking for
+                                results. I didn't want 6 packs or anything. Just wanted to get rid of 6 kg and feel
+                                energetic. At Imperial Wellness, I
+                                got more than what I wanted!"</p>
                             <div class="name">
                                 <img src="./images/designs/line.svg" alt="" class="line">
                                 <h4>Janvi Pawar, Mumbai</h4>
@@ -217,10 +227,17 @@
                 <div class="testimonial-box mx-3">
                     <div class="row justify-content-center align-items-center">
                         <div class="col-lg-7 mt-3 mb-3">
-                            <p>"My name is Dhiraj Jain. I'm 60 years. I used to suffer from diabetes, that is now
-                                controlled. I've lost 18kgs fat from
-                                body with 5inches lost from my waist. Excellent hair growth and skin results. Thank you
-                                Imperial Wellnes"</p>
+                            <p style="font-size: 1rem;">"My name is Dhiraj Jain. I'm 60 years. I am a Financial
+                                Consultant and have extended work
+                                hours almost 10-12 hrs a day. At Imperial Wellness, I got educated more about how
+                                carbohydrate based meals was
+                                causing frequent hunger pangs and also Learned about the importance of Protein in
+                                our diet.
+                                I've lost 18kgs fat from body with 5 inches lost from my waist. I feel younger and
+                                energetic throughout the day; so much
+                                that even after whole days stress and work I am able to enjoy quality play time with my
+                                grand-daughter. Additionally, I
+                                have got excellent Hair Growth and Skin transformation. Thank you Imperial Wellness"</p>
                             <div class="name">
                                 <img src="./images/designs/line.svg" alt="" class="line">
                                 <h4>Dhiraj Jain, Mumbai</h4>
@@ -234,11 +251,11 @@
                 <div class="testimonial-box mx-3">
                     <div class="row justify-content-center align-items-center">
                         <div class="col-lg-7 mt-3 mb-3">
-                            <p>"I was able to make AMAZING progress while not sacrificing anything. This is the kind of
-                                lifestyle that was sustainable
-                                long term- I realised, it’s not always about sacrifice and Hard Work… it’s about finding
-                                something that works FOR Me.
-                                Thank you Imperial Wellness."</p>
+                            <p>"At Imperialwellness I was able to make AMAZING progress while not sacrificing anything.
+                                This is the kind of lifestyle
+                                that was sustainable long term- I realised, it’s not always about sacrifice and Hard
+                                Work… it’s about finding something
+                                that works FOR Me. Thank you Imperial Wellness."</p>
                             <div class="name">
                                 <img src="./images/designs/line.svg" alt="" class="line">
                                 <h4>Alka Salvi, Mumbai</h4>
@@ -291,21 +308,17 @@
                 <div class="testimonial-box mx-3">
                     <div class="row justify-content-center align-items-center">
                         <div class="col-lg-7 mt-3 mb-3">
-                            <p style="font-size: 1rem;">"Feeling empowered💪🏼
-                                How many women stand in front of the mirror expecting their clothes to be an inch loser
-                                or go and buy one size up only
-                                to satisfy this crave.
-                                I'm truly Amazed to see women of many cultures not putting on a pound extra anywhere,
-                                even during pregnancy and
+                            <p style="font-size: 1rem;">"I'm truly Amazed to see women of many body types not putting on
+                                a pound extra anywhere, even during pregnancy and
                                 immediately come back to an Ideal Weight post delivery.
-                                But we belong to a culture and genes where putting on weight is a norm...and maintaining
+                                But I represent those, where putting on weight is the rule of thumb...and maintaining
                                 the pregnancy status throughout
-                                their lives is another.
-                                I have lost 12kgs. This is not the target, this is just a journey. A journey where I
-                                have lost weight slowly, slower
-                                than many, but consistently and more than that have been so full of energy and
-                                challenges. This is my lifestyle. I'm up
-                                for Life, Bring it On!"</p>
+                                their lives is the new status forever.
+                                I have lost 12kgs with Herbalife Nutrition. This is not the target, this is just a
+                                journey. A journey where I have lost
+                                weight slowly, slower than many, but consistently and more than that have been so full
+                                of energy and challenges. This is
+                                my lifestyle. I'm up for Life, Bring it On!"</p>
                             <div class="name">
                                 <img src="./images/designs/line.svg" alt="" class="line">
                                 <h4>Dr. Neha Aher, Mumbai</h4>

@@ -57,10 +57,10 @@ function navbar($color, $toggler) {
             <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">
                 <ul class=\"navbar-nav ml-auto\">
                     <li class=\"nav-item ml-5\">
-                        <a class=\"nav-link\" href=\"index\">Home</a>
+                        <a class=\"nav-link\" href=\"https://www.imperialwellness24.com/\">Home</a>
                     </li>
                     <li class=\"nav-item ml-5\">
-                        <a class=\"nav-link\" href=\"about\">About Us</a>
+                        <a class=\"nav-link\" href=\"about\">About Me</a>
                     </li>
                     <li class=\"nav-item ml-5\">
                         <a class=\"nav-link\" href=\"plans\">Plans</a>
@@ -87,22 +87,22 @@ function footer() {
                     <h5>Find us here</h5>
                     <p>
                         17B, Mantri Corner,<br />1st Floor, Sayani Road<br />
-                        Mumbai - 400025,<br />
+                        Prabhadevi, Mumbai - 400025,<br />
                         Maharashtra, India
                     </p>
                 </div>
                 <div class=\"col-lg-3 col-md-6 mt-4\">
                     <h5>Email us at</h5>
-                    <a href=\"#\">info@imperialwellness.com</a>
+                    <a href=\"mailto:info@imperialwellness24.com\">info@imperialwellness24.com</a>
                     <h5 class=\"mt-4\">Call us on</h5>
-                    <a href=\"#\">+91-9930 065 532</a>
+                    <a href=\"tel:+919930065532\">+91-9930 065 532</a>
                 </div>
                 <div class=\"col-lg-3 col-md-6 mt-4\">
                     <h5>Quick links</h5>
                     <div class=\"links\">
-                        <a href=\"\">Home</a>
-                        <a href=\"\">About Us</a>
-                        <a href=\"\">Plans</a>
+                        <a href=\"https://www.imperialwellness24.com/\">Home</a>
+                        <a href=\"about\">About Us</a>
+                        <a href=\"plans\">Plans</a>
                     </div>
                 </div>
                 <div class=\"col-lg-3 col-md-6 mt-4\">
@@ -113,7 +113,7 @@ function footer() {
                 </div>
             </div>
             <p class=\"copyright\">
-                &copy; All Rights reserved | Privacy Policy | Credits
+                &copy; All Rights reserved | Imperial Wellness
             </p>
         </div>
     </footer>";

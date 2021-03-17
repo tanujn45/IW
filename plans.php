@@ -4,6 +4,15 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DV69LVSG31"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-DV69LVSG31');
+    </script>
     <?php head_tag(); ?>
     <title>Imperial Wellness | Plans</title>
 </head>
@@ -24,7 +33,7 @@
     <section id="plans">
         <div class="container">
             <div class="row justify-content-center align-items-center">
-                <div class="col-md-5" data-aos="fade-up">
+                <div class="col-lg-5 col-md-6" data-aos="fade-up">
                     <a href="" class="mt-5">
                         <div class="plan-box mt-5">
                             <h2>21 Days</h2>
@@ -34,17 +43,18 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-7">
+                <div class="col-lg-7 col-md-6">
                     <div class="mx-1 mt-5">
                         <ul data-aos="fade-up">
-                            <li>If you're Looking For a Trial plan</li>
-                            <li>Basic bodyweight workouts</li>
-                            <li>Herbalife Nutrition pack</li>
-                            <li>Weekly WhatApp Support</li>
+                            <li>Trial plan</li>
+                            <li>Wellness Consultation</li>
+                            <li>Herbalife Nutrition pack(Breakfast)</li>
+                            <li>Nutrition Education</li>
+                            <li>24*7 Coach Support</li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-5" data-aos="fade-up">
+                <div class="col-lg-5 col-md-6" data-aos="fade-up">
                     <a href="" class="mt-5">
                         <div class="plan-box mt-5 green">
                             <h2>30 Days</h2>
@@ -54,18 +64,19 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-7">
+                <div class="col-lg-7 col-md-6">
                     <div class="mx-1 mt-5">
                         <ul data-aos="fade-up">
-                            <li>Customised Plan </li>
+                            <li>Wellness Consultation</li>
+                            <li>Herbalife Nutrition pack(2 Meals)</li>
+                            <li>Nutrition Education</li>
+                            <li>24*7 Coach Support</li>
                             <li>Online Cardio and Strength workouts</li>
-                            <li>Herbalife Nutrition pack</li>
-                            <li>Shopping List</li>
-                            <li>WhatsApp Communication For Guidance and follow-up</li>
+                            <li>Customised Meal Planning</li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-5" data-aos="fade-up">
+                <div class="col-lg-5 col-md-6" data-aos="fade-up">
                     <a href="" class="mt-5">
                         <div class="plan-box mt-5 blue">
                             <h2>90 Days</h2>
@@ -74,17 +85,18 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-7 ">
+                <div class="col-lg-7 col-md-6">
                     <div class="mx-1 mt-5">
                         <ul data-aos="fade-up">
                             <li>Wellness Consultation</li>
-                            <li>Customised Plan</li>
-                            <li>Cardio and strength workouts</li>
-                            <li>Herbalife Nutrition pack </li>
+                            <li>Herbalife Nutrition pack (2 Meals)</li>
+                            <li>Nutrition Education</li>
+                            <li>24*7 Coach Support</li>
+                            <li>Online Cardio and Strength workouts</li>
+                            <li>Customised Meal Planning</li>
                             <li> Weekly 1-1 call for personal guidance and follow-up</li>
-                            <li>Fat-loss recipes and shopping lists</li>
-                            <li>Coach support</li>
-                            <li>Reward At Every Milestone (5kg /10Kg/15Kg/20Kg)</li>
+                            <li>Fat-loss recipes</li>
+                            <li>Reward At Every Milestone (5kg/10Kg/15Kg/20Kg)</li>
                         </ul>
                     </div>
                 </div>
