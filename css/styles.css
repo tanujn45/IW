@@ -652,7 +652,8 @@ REGISTER PAGE
 }
 
 input[type="email"],
-input[type="text"] {
+input[type="text"],
+input[type="password"] {
   border: none;
   border-bottom: 1px solid var(--black);
   border-radius: 0;
@@ -669,4 +670,12 @@ input[type="text"] {
 
 #submit h1 {
   color: #008000;
+}
+
+#login {
+  height: 100vh;
+}
+
+#data {
+  padding: 100px 0;
 }

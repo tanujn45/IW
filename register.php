@@ -120,7 +120,7 @@
                             </div>
                         </div>
                         <div class="mx-4">
-                            <input type="submit" value="Submit" class="iw-btn">
+                            <input type="submit" value="submit" class="iw-btn" name="submit">
                         </div>
                     </form>
                 </div>
